@@ -1,0 +1,46 @@
+body { width: 100%; margin: 0; padding: 0; }
+/* font-family: 'BMHANNAPro'; 폰트 적용x */
+ul { list-style: none;padding: 0; margin: 0;}
+.box_inner { width: 1020px; margin: 0 auto; margin-top: 50px;}
+a { color: gray; }
+a:link { color: gray; text-decoration: none;}
+a:visited {color: gray; text-decoration: none;}
+a:hover { color: #2AC1BC;}
+h1 { margin: 0; padding: 0; }
+ul li:hover{background-color: #2AC1BC; color: white;}
+
+/* header */
+.header { background-color: #2AC1BC; padding-top: 10px; padding-bottom: 10px;}
+.header img { width: 20%; height: 50px;}
+.header .user_list {display: inline-block; width: 78%; text-align: right; vertical-align: top; padding-top: 20px; }
+.header .user_list li { color: #ffffff; display: inline-block; }
+.header .user_list li a { color: #ffffff; }
+
+/* footer */
+.footer { margin-top: 30px;}
+.footer_list_div {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;padding: 10px;margin-bottom: 20px;}
+.footer .box_inner {margin-top: 0;}
+/* footer 수정 */
+.footer_list {display: inline-block; padding-left: 0px;margin: 0;}
+.footer_list li {display: inline-block;margin-left: 30px;color: gray;}
+.footer_list li:first-child {margin-left: 0; }
+
+/* footer sns 이미지 추가  */
+.footer_sns { display: inline-block; float: right; margin-right: 15px; }
+.footer_sns li{display: inline-block;vertical-align: top; margin-right: 15px;}
+.footer_sns li:last-child { margin-right: 0; }
+.footer_sns li img { width: 20px; height: 20px; }
+/* 끝 */
+
+.company_logo {display: inline-block;vertical-align: top; }
+.company_info {display: inline-block; width: 950px ;margin-left: 10px;}
+
+/* .company_info p {font-size: 13px;color: gray;}
+아래가 추가한 내용 */
+.company_info p {font-size: 13px;color: gray; word-break: keep-all; }
+
+
+.c1 { display: inline-block; width: 10%; vertical-align: top;}
+.c1 ul li {height: 40px; padding: 10px 0; padding-left: 5px; vertical-align: middle; height: 25px;}
+.c2 { display: inline-block; width: 88%;}
+.c2 iframe {width: 100%; height: 900px;}

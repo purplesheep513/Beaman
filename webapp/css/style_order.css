@@ -1,0 +1,400 @@
+/* header */
+
+.header { background-color: #2AC1BC; padding-top: 10px; padding-bottom: 10px;}
+.header img { width: 20%; height: 50px;}
+.header .user_list {display: inline-block; width: 78%; text-align: right; vertical-align: top; padding-top: 20px; }
+.header .user_list li { color: #ffffff; display: inline-block; }
+.header .user_list li a { color: #ffffff; }
+
+body { width: 100%; margin: 0; padding: 0; }
+/* font-family: 'BMHANNAPro'; ??뙴???諭? ???쓤???뮔x */
+ul { list-style: none;padding: 0; margin: 0;}
+.box_inner { width: 1020px; margin: 0 auto;}
+a { color: gray; }
+a:link { color: gray; text-decoration: none;}
+a:visited {color: gray; text-decoration: none;}
+a:hover { color: #2AC1BC;}
+h1 { margin: 0; padding: 0; }
+
+/* ?썒?슣?닔?爰뽫춯?돦堉먪뵳? */
+#gowhere {
+    padding-left: 50px;
+    display: none;
+}
+#gowhere_btn {
+    width: 121.5px;
+    height: 51px;
+    background-color: #2AC1BC;
+    color: white;
+    border: none;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+#sample6_address {
+    width: 286.5px;
+    height: 45px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#sample6_detailAddress, #sample6_extraAddress {
+    height: 45px;
+    border: 2px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+#sample6_postcode {
+	width: 100px;
+	height: 45px;
+    margin-bottom: 9px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+#sample6_detailAddress {
+    width: 340px;
+}
+#sample6_extraAddress {
+    width: 183px;
+}
+/* ??뫀踰??苑? */
+#order_container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+#div_head {
+    height: 44px;
+    background-color: #e3e3e3;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #737373;
+    margin-bottom: 5px;
+}
+input[type='radio']{
+    margin-right: 30px;
+    vertical-align: middle;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -6px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    }
+    
+    input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -6px;
+    left: -1px;
+    position: relative;
+    background-color: #2AC1BC;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    }
+
+/* ?뛾?룄???苑딁춯?? ???젧?솻?? */
+#destination {
+    width: 60%;
+    display: inline-block;
+}
+#destination img {
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+    float: left;
+}
+#destination h2:nth-child(3) {
+    font-size: 40px;
+    vertical-align: middle;
+    color: #737373;
+    padding: 0 0 10px 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#des_info {
+    vertical-align: middle;
+    margin-left: 30px;
+}
+#path_select {
+    width: 92%;
+    clear: both;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 10px;
+    border-top: 2px solid #ccc;
+    margin-left: 40px;
+}
+#path_select p {
+    font-size: 18px;
+    color: #ccc;
+}
+#path_select p span {
+    margin-left: 25px;
+}
+#lbl1{color: #333;}
+/* ?썒?슣?닑?룇?筌?? */
+#order_list20 {
+    width: 37%;
+    float: left;
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+#order_list20 ul li {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    list-style: none;
+    box-sizing: border-box;
+}
+#order_list20 .order_cc2 {
+    height: auto;
+}
+#order_list20 .order_cc2 .menus {
+    width: 80%;
+    height: auto;
+    float: left;
+
+    padding-left: 15px;
+   box-sizing: border-box;
+}
+#order_list20 .order_cc2 .menus .menu_name {
+    color: #737373;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+#order_list20 .order_cc2 .menus .menu_option {
+    color: #ccc;
+    margin-top: 0;
+    font-size: 18px;
+}
+#order_list20 .order_cc2 .menus p {
+	color: rgb(102, 94, 94); font-weight: bold; font-size: 18px;
+	height: 60px;
+	padding-bottom: 15px;
+}
+#order_list20 .order_cc2 .menu_p {
+    width: 20%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#order_list20 .order_cc2 .menu_p p {
+	color: rgb(102, 94, 94); font-weight: bold; font-size: 18px;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	height: 60px;
+}
+
+#order_list20 .order_cc2 .menu_p p:last-child {
+	margin: 0;
+}
+#order_list20 .order_cc2 .menu_p .menu_price {
+    font-size: 22px;
+    color: #ccc;
+    font-weight: bold;
+}
+#order_list20 .order_cc {
+    background-color: #2AC1BC;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+#order_list20 #orderBtn {
+    width: 100%;
+    background-color: #2AC1BC;
+    color: white;
+    height: 70px;
+    margin-top: 15px;
+    border: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.order_final {
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-top: 1px;
+}
+#for_clear_both { clear: both;}
+.order_final p {vertical-align: middle;}
+.order_final p .final_pay1 {
+    color: #bbb;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.order_final p .final_pay2 {
+    color: #2AC1BC;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 51px;
+    letter-spacing: -2px;
+}
+.order_final p .final_pay3 {
+    color: #2AC1BC;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/* ???뭵嶺????亦????뜮? */
+#request {
+    width: 60%;
+}
+#request_text {
+    width: 90%;
+    background-color: #f3f3f3;
+    margin-left: 30px;
+    height: 140px;
+    resize: none;
+    border: none;  
+}
+
+/* ??뙴???逾???諭? */
+#point {
+    width: 60%;
+}
+#point form {
+    width: 90%;
+    background-color: #f3f3f3;
+    margin-left: 30px;
+    height: 110px;
+    resize: none;
+    border: none;
+}
+#point form p { 
+    padding: 20px 10px 20px 10px;
+}
+#point form p label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+}
+#point form p span {
+    margin-right: 15px;
+}
+#point form p input[type=text] {
+    width: 100px;
+}
+#point form p input[type=button] {
+    border: none;
+    outline: none;
+    background-color: #2AC1BC;
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    margin-left: 308px;
+    margin-top: 8px;
+}
+
+/* ?뇦猿됲????젷???빢??堉? */
+#payment {
+    width: 60%;
+}
+#payment #div_head {
+    margin-bottom: 40px;
+}
+#payment .howToPay {
+    background-color: #f1f1f1;
+    position: relative;
+}
+#payment .howToPay a:hover {
+    color: #737373;
+}
+#payment p {
+    color: #737373;
+    font-size: 25px;
+    font-weight: bold;
+}
+#pay1 {
+    width: 260px;
+    height: 90px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; padding: 4px 0;
+    float: left;
+    background: url(../images/cardpay.png) no-repeat 40px 50%;
+}
+#pay2 {
+    width: 260px;
+    height: 90px;
+    float: left;
+    box-sizing: border-box; padding: 4px 0;
+    background: url(../images/phonepay.png) no-repeat 40px 50%;
+    background-size: 52px 45px;
+}
+#pay3 {
+    clear: both;
+    margin-left: 40px;
+    width: 530px;
+    height: 90px;
+}
+#pay1 a {
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 120px;
+}
+#pay2 a {
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 90px;
+}
+#pay3 a {
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 210px;
+}
+#pay3 p {
+    padding-top: 27px;
+    margin: 0;
+}
+#point form p span {
+    margin-right: 94px;
+}
+
+
+/* footer */
+.footer { margin-top: 30px;}
+.footer_list_div {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;padding: 10px;margin-bottom: 20px;}
+
+/* footer ???빢???젧 */
+.footer_list {display: inline-block; padding-left: 0px;margin: 0;}
+.footer_list li {display: inline-block;margin-left: 30px;color: gray;}
+.footer_list li:first-child {margin-left: 0; }
+
+/* footer sns ??逾졿쾬?꼶梨?? ?鍮딃겫??  */
+.footer_sns { display: inline-block; float: right; margin-right: 15px; }
+.footer_sns li{display: inline-block;vertical-align: top; margin-right: 15px;}
+.footer_sns li:last-child { margin-right: 0; }
+.footer_sns li img { width: 20px; height: 20px; }
+/* ?椰?? */
+
+.company_logo {display: inline-block;vertical-align: top; }
+.company_info {display: inline-block; width: 950px ;margin-left: 10px;}
+
+/* .company_info p {font-size: 13px;color: gray;}
+??뇡????굥?뤆?? ?鍮딃겫????뇡? ?亦?????뮔 */
+.company_info p {font-size: 13px;color: gray; word-break: keep-all; }

@@ -1,0 +1,29 @@
+a { text-decoration: none; }
+.find_id_pw { width: 100%; }
+.find_id_pw_title { width: 500px; margin: 0 auto; font-size: 40px; margin-top: 50px; }
+h2 { text-align: center; color: #7d7d7d; }
+.find_id_pw_main { width: 500px; margin: 0 auto; display: flex; margin-top: 50px; }
+.find_id {  width: 250px; margin: 0; background-color: #2AC1BC; }
+.find_id p { text-align: center; }
+.find_id p #btnId { color: white; font-size: 18px; }
+.find_pw {  width: 250px; margin: 0; background-color: #ccc; border-bottom: 3px solid #2AC1BC; }
+.find_pw p { text-align: center; }
+.find_pw p #btnPw { color: white; font-size: 18px; }
+.find_jungbo { width: 500px; margin: 0 auto; border: 1px solid black; height: 300px; line-height: 3; }
+
+.find_jungbo .find_id_jungbo .p_lo { padding-left: 60px; color: rgba(132, 132, 132, 1); }
+.find_jungbo .find_id_jungbo .p_lo:first-child { margin-top: 50px; }
+.find_jungbo .find_id_jungbo .p_lo #name_id { margin-left: 70px; width: 277px; height: 40px; border: 1px solid #ccc; }
+.find_jungbo .find_id_jungbo .p_lo #email_id { margin-left: 16px; width: 277px; height: 40px; border: 1px solid #ccc; }
+
+.find_jungbo .find_pw_jungbo { display: none; }
+.find_jungbo .find_pw_jungbo .p_po { padding-left: 60px; color: rgba(132, 132, 132, 1); }
+.find_jungbo .find_pw_jungbo .p_po:first-child { margin-top: 50px;  }
+.find_jungbo .find_pw_jungbo .p_po #name_pw { margin-left: 53px; width: 277px; height: 40px; border: 1px solid #ccc; }
+.find_jungbo .find_pw_jungbo .p_po #email_pw { margin-left: 16px; width: 277px; height: 40px; border: 1px solid #ccc; }
+
+.go_to_login{margin-left: 900px; padding-top:10px;}
+.go_to_login a {color: #737373; font-size:14px;}
+.go_to_login a:hover {color: #2AC1BC;}
+<!-- .btn { width: 400px; height: 60px; background-color: #2AC1BC; margin: 0 auto; text-align: center; margin-top: 50px;  }
+.btn a { vertical-align: middle; color: white; } -->

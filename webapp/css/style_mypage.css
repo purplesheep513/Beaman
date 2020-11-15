@@ -1,0 +1,24 @@
+html, body{ margin: 0; height: 100%;padding: 0; overflow: hidden;}
+html {height: 100%;}
+ul { list-style: none;}
+a { color: #2e2e2e; }
+li { color: #2e2e2e;}
+li:hover { color: #2AC1BC;}
+a:hover {color: #2AC1BC;}
+
+.left_menu { width: 350px; position: absolute; display: inline-block; min-height: 100%; box-shadow:5px 5px 5px 5px #999;}
+.right_menu { width: 1024px; display: inline-block; min-height: 100vh; vertical-align: top;  }
+.left_menu img:nth-child(1){width: 65%; vertical-align: top;}
+.left_menu img:nth-child(2){width: 30%}
+.img_div { width: 100%; margin-top: 50px; background-color: #2AC1BC;}
+.menu_list{font-size: 20px; font-weight: bold; cursor: Pointer;}
+.menu_list .main_menu img {width: 25px; margin-right: 20px; vertical-align: middle;}
+.sub_list .sub_menu { font-size: 16px; margin-left: 20px; margin-bottom: 10px; font-weight: lighter; display: none;}
+.sub_list .sub_menu.on { display: block;}
+.sub_menu:first-child { margin-top: 10px;}
+li { margin-bottom: 15px;}
+#the_iframe { overflow-x:hidden; overflow:auto; 
+    display: block;   border: none;   height: 100vh;   width: 100vw;
+
+   }
+

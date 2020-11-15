@@ -1,0 +1,82 @@
+/* 공통 */
+body { width: 100%; margin: 0; padding: 0; position: absolute; left: 120px;}
+/* font-family: 'BMHANNAPro'; 폰트 적용x */
+ul { list-style: none; padding: 0; margin: 0;}
+.box_inner { width: 1020px; margin-left: 400px;}
+a { color: gray; }
+a:link { color: gray; text-decoration: none;}
+a:visited {color: gray; text-decoration: none;}
+a:hover { color: #2AC1BC;}
+h1 { margin: 0; padding: 0; }
+
+
+
+/* ---------------------- 여기서부터가 제가 한 것입니다.---------------------------------------------- */
+
+#inquirehis { height: 70px; margin-left: 390px; margin-top: 100px;}
+#inquirehis h1 { height: 60px; font-size: 45px; font-weight: bold; color: #525252; margin-bottom: 0; padding-bottom: 0; }
+#inquirehis p {color: #7d7d7d;}
+
+
+/* 내용 */
+#inquhis_menutitle { border-bottom: 3px solid rgba(97, 97, 96, 1); margin-top: 50px; }
+#inquhis_menutitle .inquhis_titlef #inquir_btn {margin-left: 920px; background-color: #2AC1BC; color: white; border: none; height: 40px; width: 100px;} 
+#inquhis_menutitle .inquhis_titlef { font-size: 30px; margin-bottom: 20px; color: rgba(153, 153, 153, 1); }
+#inquhis_question_cont2 ul li { height: 50px; border-bottom: 1px solid #ccc; font-size: 20px; line-height: 2.2em; display: flex; border-left: 1px solid rgba(227, 227, 227, 1); border-right: 1px solid rgba(227, 227, 227, 1); }
+#inquhis_question_cont2 ul li:first-child { background-color: rgba(250, 250, 250, 1); border-bottom: 3px solid rgba(227, 227, 227, 1); }
+#inquhis_question_cont2 ul li .inq_menulef { width: 200px; text-align: center; color: #2AC1BC; font-size: 25px; }
+#inquhis_question_cont2 ul .menuline .inq_menulef { color: #7d7d7d; }
+/* 내용부분은 글자가 넘어가면 hidden으로 감췄음 */
+#inquhis_question_cont2 ul li .inq_menucen { text-align: center; width: 600px; color: #7d7d7d; }
+#inquhis_question_cont2 ul li .inq_menurig { width: 200px; text-align: right; }
+
+#inquhis_question_cont2 ul li .inq_menurig a img { width: 40px; height: 40px; vertical-align: middle; background-color: white; padding: -10; border: 0px none none; }
+#inquhis_question_cont2 ul li .inq_menurig .a_qnadup {
+    display: none;
+}
+#inquhis_question_cont2 ul .inq_menurig_cont { height: 100%;  display: none;}
+#inquhis_question_cont2 ul .inq_menurig_cont div .menurig_cont_ques {color: #2AC1BC; margin-right: 395px; margin-left:50px; margin-top: 0px; font-size: 20px; }
+#inquhis_question_cont2 ul .inq_menurig_cont div .menurig_cont_an
+{color: #2AC1BC; margin-right: 100px; font-size: 20px; margin-left:50px;}
+
+#inquhis_question_cont2 ul .inq_menurig_cont div p {
+    font-size: 15px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* 두 번째 내용 */
+#inquhis_question_cont2 ul li .inq_menurig2 { width: 200px; text-align: right; }
+#inquhis_question_cont2 ul li .inq_menurig2 a img { width: 40px; height: 40px; vertical-align: middle; background-color: white; padding: -10; border: 0px none none; }
+#inquhis_question_cont2 ul li .inq_menurig2 .a_qnadup2 {
+  display: none;
+}
+#inquhis_question_cont2 ul .inq_menurig_cont2 { height: 100%;  display: none;}
+#inquhis_question_cont2 ul .inq_menurig_cont2 div .menurig_cont_ques {margin-left:50px; margin-right: 395px; color: #636363;  margin-top: 0px; font-size: 20px; }
+#inquhis_question_cont2 ul .inq_menurig_cont2 div .menurig_cont_an
+{color: #2AC1BC; font-size: 20px; margin-right: 100px; margin-left:50px;}
+#inquhis_question_cont2 ul .inq_menurig_cont2 div p {
+    font-size: 15px;
+    text-align: center;
+}
+
+#inquhis_question_cont2 > ul > li.inq_menurig_cont > div > p:nth-child(5){margin-left:100px; margin-right:100px;}
+
+.menuring_cont_an_check1 {margin-left:50px; color:red;}
+
+/* ----------------------------------질문 등록------------------------------------------- */
+
+
+#btn_write{width: 100%; background-color: #2AC1BC; border: 0; height: 50px; font-size: 16px; color: white; margin-left: 0;}
+.header_logo {background-color: #2AC1BC;}
+  .header_logo img{width: auto; height: 70px;}
+.inquire {text-align: center; line-height: 40px;  width: 500px; height: 665px; box-sizing: border-box; border: 1px solid black; background-color: white; display: none;}
+.inquire label {font-size: 20px;}
+.inquire input {margin-left: 70px; height: 20px; width: 200px;}
+.inquire .email input{margin-left: 50px;}
+.inquire label select {margin-left: 30px; height: 20px; width: 208px;}
+.inquire #cont_label {vertical-align: 140px; margin-right: 30px;}
+.inquire textarea { resize: none; width: 205px; height: 250px;}
+.inquire .file input{margin-left: 20px; }
+.inquire .button ul li {box-sizing: border-box; border: none; width: 50%; float: left;}
+.inquire .button ul .cancle input[type="button"]{width: 100%; background-color: #808080; border: 0; height: 50px; font-size: 16px; color: white; margin-left: 0;}

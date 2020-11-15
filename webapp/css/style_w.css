@@ -1,0 +1,73 @@
+body { width: 100%; margin: 0; padding: 0; position: absolute; }
+/* font-family: 'BMHANNAPro'; 폰트 적용x */
+ul { list-style: none;padding: 0; margin: 0;}
+.box_inner { width: 1020px; margin: 0 auto;}
+a { color: #000; }
+a:link { color: #000; text-decoration: none;}
+a:visited {color: #000; text-decoration: none;}
+a:hover { color: #2AC1BC;}
+h1 { margin: 0; padding: 0; }
+p { margin: 0;}
+
+
+
+/* info_modi.html */
+.info_modi img {width: 400px; }
+.add_m_img {text-align: right;padding-right: 200px; }
+
+
+.info_modi {width: 850px; margin: 0 auto; margin-top: 100px; }
+.info_modi .modi_IP{width: 160px;display: inline-block; text-align: left; vertical-align: top;}
+.info_modi .modi_IP p { height: 40px; box-sizing: border-box; padding-top: 1px; margin-bottom: 10px;}
+.info_modi .modi_IP p:nth-child(1) { margin-bottom: 15px;}
+.info_modi .modi_IP p:nth-child(3) {margin-bottom: 50px;}
+.info_modi .ip_type{ width: 670px; box-sizing: border-box; display: inline-block;}
+.info_modi .ip_type input[type=text],[type=password] {width: 100%; height: 40px; box-sizing: border-box; border: 1px solid #ccc; font-size: 16px; padding-left: 10px;}
+.info_modi .ip_type input[type=text] { margin-bottom: 15px;}
+.info_modi .ip_type input[type=password]{ margin: 0; height: 40px; margin-bottom: 5px;}
+
+.info_modi .modi_email {width: 160px;display: inline-block; text-align: left; vertical-align: top;}
+.info_modi .modi_email p { margin-top: 40px;}
+.info_modi .email_type {width: 670px; box-sizing: border-box; display: inline-block; margin-top: 30px;}
+.info_modi .email_type input[type=text],select{ width: 160px; height: 40px; box-sizing: border-box; border: 1px solid #ccc; font-size: 16px; padding-left: 10px;}
+select { margin-left: 3px;}
+.info_modi .email_type input[type=text].innum{ width: 65%; margin-right: 15px; margin-top: 5px;}
+.info_modi .email_type input[type=button].in_btn{width: 145px;  border: 0; background-color: #2AC1BC; color: white; height: 40px; font-size: 16px;}
+.info_modi .email_type input[type=button].input_btn{width: 32.3%;  border: 0; background-color: #2AC1BC; color: white; height: 40px; font-size: 16px; margin-bottom: 70px; padding-bottom: 5px;}
+
+
+.info_modi .ph_modi {width: 160px;display: inline-block; text-align: left; vertical-align: top;}
+.info_modi .ph_modi .ph_font { height: 40px; padding-top: 8px;}
+.info_modi .ph_modi .ph_font:nth-child(1) { margin-bottom: 5px;}
+.info_modi .ph_type {width: 670px; box-sizing: border-box; display: inline-block; }
+.info_modi .ph_type input[type=text] { width: 100%; height: 40px; box-sizing: border-box; border: 1px solid #ccc; font-size: 16px; padding-left: 10px;}
+.info_modi .ph_type input[type=button]#find_addr{width: 223px;  border: 0; background-color: #2AC1BC; color: white; height: 40px; font-size: 16px; padding-bottom: 5px;}
+.info_modi .ph_type input[type=text]#sample3_postcode { width: 440px;}
+.ph_type p:nth-child(2) { margin-top: 5px; height: 40px;}
+.info_modi .ph_type input[type=text]#sample3_address { width: 49%; margin-top: 8px;}
+.info_modi .ph_type input[type=text]#sample3_detailAddress { width: 49.9%;}
+
+
+.info_modi .name_modi{width: 160px;display: inline-block; text-align: left; vertical-align: top; margin-top: 70px; padding-top: 8px;}
+.info_modi .name_type{width: 670px; box-sizing: border-box; display: inline-block; margin-top: 70px; height: 40px;}
+.info_modi .name_type p { height: 100%;}
+.name_type p span { width: 440px;}
+.info_modi .name_type input[type=text]{width: 430px; height: 40px; box-sizing: border-box; border: 1px solid #ccc; font-size: 16px; padding-left: 10px; margin-right: 15px;}
+.info_modi .name_type input[type=button] {width: 223px;  border: 0; background-color: #2AC1BC; color: white; height: 40px; font-size: 16px; padding-bottom: 4px;}
+.info_modi .complete_type {width: 700px; box-sizing: border-box; display: inline-block;}
+.info_modi input[type=submit]#complete_modi {width: 670px; height: 50px; border: 0; background-color: #2AC1BC; color: white;  font-size: 20px; margin-top: 80px;}
+.complete_type { width: 670px; margin-left: 165px; margin-bottom: 200px;}
+
+
+/* mypage_login */
+.mypageLogin { width: 400px; margin-top: 30px; position: absolute; top: 100px; left: 850px;}
+.mypageLogin .font_wait { font-size: 6em; font-weight: bold; text-align: center; color: #575757;}
+.mypageLogin .mytext {text-align: center; line-height: 0.2em; letter-spacing: 0.05%; color: #999; height: 25px;}
+.my_login { margin-top: 10px; box-shadow:2px 2px 2px 2px #999; border: 0;}
+.my_login #myIdPw { padding: 30px; padding-bottom: 0;}
+.my_login input[type=text],[type=password] {width: 100%; height: 50px; box-sizing: border-box; border: 1px solid #ccc; font-size: 16px; padding-left: 10px; margin-bottom: 25px;}
+.my_login span {float: right; }
+.my_login .modi_s { margin-left: 15px; color: gray;}
+.my_login .find_ip { color: gray;}
+.my_login #mylogBtn { text-align: center;}
+.my_login #mylogBtn #login_btn{ width: 300px; border: 0; background-color: #2AC1BC; color: white; height: 50px; font-size: 20px;font-weight: bold; margin-top: 20px; margin-bottom: 30px;}

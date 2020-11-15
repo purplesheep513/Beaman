@@ -1,0 +1,12 @@
+body { width: 100%; margin: 0; padding: 0; }
+.company_intro { width: 900px; margin: 0 auto; height: 100%; }
+
+.company_intro h1 { text-align: center; font-size: 4em;}
+.company_intro .lbl_left {
+    width: 180px;display: inline-block; text-align: left; vertical-align: top; height: 450px;
+}
+.company_intro .text_right{  width: 700px; box-sizing: border-box; display: inline-block;}
+.company_intro .text_right span { border-bottom: 3px solid skyblue; }
+.company_intro .lbl_left {border-top: 3px solid #000;}
+.company_intro .text_right {border-top: 3px solid #000;}
+.company_intro .lbl_left p { font-weight: bold; font-size: 1.3em;}

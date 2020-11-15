@@ -1,0 +1,31 @@
+/* 공통 */
+body { width: 100%; margin: 0; padding: 0; position: absolute; left: 130px;}
+/* font-family: 'BMHANNAPro'; 폰트 적용x */
+ul { list-style: none;padding: 0; margin: 0;}
+.box_inner { width: 1020px; margin: 0 auto;}
+a { color: gray; }
+a:link { color: gray; text-decoration: none;}
+a:visited {color: gray; text-decoration: none;}
+a:hover { color: #2AC1BC;}
+h1 { margin: 0; padding: 0; }
+
+
+/* ansim */
+.gray_background { background-color: #F2F2F2; text-align: center; padding-top: 70px; padding-bottom: 70px;}
+.gray_background img { margin-top: 30px;}
+.gray_background img:first-child { margin-top: 0;}
+.ansim_so { background: url("https://lh3.googleusercontent.com/proxy/VRJcaTYWA0VFu37ZMlbvpv6OZHQr_RfHub_FxPXRF6frkmB39SN9V0WsHsrOXptpktHbThOlyJ-bozwf054nkGKjjy9rIL_kmJiUHIVGa71P") no-repeat right; width: 100%; height: 270px; padding-top: 30px;}
+.ansim_so .ansim_so_text {height: 100%; vertical-align: middle; width: 65%;}
+.ansim_so .ansim_so_text div { margin-top: 45px; font-size: 25px;}
+.singo {text-align: center;}
+.singo_img { width: 500px; height: 320px;}
+.ue { background-color: #eee; color: gray; padding-top: 5px; padding-bottom: 30px;}
+.ue h2 { color: black; font-size: 16px;}
+.ue ul {padding-left: 6px;}
+.ue ul li {font-size: 14px;}
+.singo p { color: gray;font-size:14px;}
+.singo_pn {text-align: center;}
+.singo_pn p {font-size: 20px;}
+.singo_pn p span { color: black; font-size: 30px; font-weight: bold;}
+
+
